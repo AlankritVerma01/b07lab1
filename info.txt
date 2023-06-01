@@ -1,1 +1,13 @@
-B07 tutorial
+The repository is for the CSCB07 tutorial 
+driver.java:
+- Description: Contains the main method that demonstrates the usage of the Polynomial class.
+- Function: main(String[] args) - Entry point of the program, performs polynomial operations.
+
+Polynomial.java:
+- Description: Implements a Polynomial class for polynomial operations.
+- Functions:
+  - Polynomial() - Default constructor for Polynomial class.
+  - Polynomial(double arr[]) - Constructor accepting an array of coefficients.
+  - add(Polynomial other) - Adds two polynomials and returns the result.
+  - evaluate(double x) - Evaluates the polynomial at a specific value.
+  - hasRoot(double x) - Checks if the polynomial has a root at a specific value.
